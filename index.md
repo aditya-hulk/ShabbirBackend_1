@@ -42,8 +42,13 @@ https://github.com/aditya-hulk/ShabbirBackend_1.git
 ## 35. Converting h2 db to mysql db.
 # Section -6 Microservice Intro
 ## 36. All About the microservices.
-
-
+# Section-7 Microservices Implementation
+## 37. Overview of implementing microservice architecture.
+## 38. What is Service Registry?
+## 39. Creating Product Service?
+## 40. IMplementing Create Product API?
+## 41. Implementing Get Product API.
+## 42. Exception Handling in product Service.
 
 
 
