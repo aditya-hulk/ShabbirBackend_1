@@ -309,3 +309,55 @@ public class EmployeeServiceImpl implements EmployeeService{
 # 41. Implementing Get Product API.
 ![alt text](image-227.png)![alt text](image-229.png)![alt text](image-228.png)![alt text](image-230.png)![alt text](image-231.png)![alt text](image-232.png)![alt text](image-233.png)![alt text](image-234.png)
 # 42. Exception Handling in product Service.
+![alt text](image-235.png)![alt text](image-236.png)![alt text](image-237.png)![alt text](image-238.png)![alt text](image-239.png)![alt text](image-240.png)![alt text](image-241.png)![alt text](image-242.png)
+- So whenever the product is not found, we will send this error message and this status would be not found and we will send a particular error code as well.
+# 43. Creating Service Registry
+![alt text](image-243.png)![alt text](image-244.png)![alt text](image-245.png)![alt text](image-246.png)
+## Now we need to add configuration for this as well
+### 2)	Convert app.prop to app.yaml
+![alt text](image-247.png)![alt text](image-248.png)![alt text](image-249.png)
+# 44. Implementing Service Registry Client in ProductService.
+![alt text](image-250.png)![alt text](image-251.png)![alt text](image-252.png)
+# 45. Creating Order Service application with package and classes.
+![alt text](image-253.png)![alt text](image-254.png)![alt text](image-255.png)
+## Now Create classes
+### Controller
+![alt text](image-256.png)
+### Service
+![alt text](image-257.png)![alt text](image-258.png)
+### Entity
+![alt text](image-259.png)
+### Repository
+![alt text](image-260.png)
+# 46. Creating Place Order API with Basic Data Saving
+## Create an API to place an Order
+![alt text](image-261.png)
+## OrderRequest
+![alt text](image-262.png)![alt text](image-263.png)
+### Go back to OrederController
+![alt text](image-264.png)
+### Go to Service
+![alt text](image-265.png)![alt text](image-266.png)![alt text](image-267.png)![alt text](image-268.png)
+### Output
+![alt text](image-269.png)![alt text](image-270.png)![alt text](image-271.png)
+# 47. Implement Service Registry Client in OrderService.
+![alt text](image-272.png)![alt text](image-273.png)
+# 48. How to handle repitative configuration
+![alt text](image-274.png)![alt text](image-275.png)
+# 50. Creating Config Server.
+![alt text](image-276.png)![alt text](image-277.png)
+### Create a Github repository
+![alt text](image-278.png)![alt text](image-279.png)
+### Git hub repo Create a file
+![alt text](image-280.png)![alt text](image-281.png)
+### Now go to order-service and product-service and comment this configuration
+![alt text](image-282.png)![alt text](image-283.png)
+# 51. Adding Config Client in Order and Product Service.
+![alt text](image-284.png)
+### Now I tell both service where to connect
+![alt text](image-285.png)
+### Start configserver app
+![alt text](image-286.png)
+### Restarting Order and Product Services
+![alt text](image-287.png)
+

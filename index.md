@@ -49,6 +49,18 @@ https://github.com/aditya-hulk/ShabbirBackend_1.git
 ## 40. IMplementing Create Product API?
 ## 41. Implementing Get Product API.
 ## 42. Exception Handling in product Service.
+## 43. Creating Service Registry
+## 44. Implementing Service Registry Client in ProductService.
+## 45. Creating Order Service application with package and classes.
+## 46. Creating Place Order API with Basic Data Saving
+## 47. Implement Service Registry Client in OrderService.
+## 48. How to handle repitative configuration
+## 49. 50. Creating Config Server.
+## 51. Adding Config Client in Order and Product Service.
+
+
+
+
 
 
 
