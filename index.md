@@ -57,6 +57,9 @@ https://github.com/aditya-hulk/ShabbirBackend_1.git
 ## 48. How to handle repitative configuration
 ## 49. 50. Creating Config Server.
 ## 51. Adding Config Client in Order and Product Service.
+## 52. Implementing Reduce quantity API in Product Service.
+## 54. Feign Client Intro & 55. Calling reduce quantity API from place order service via Feign Client. 
+## 56. Implementing error Decoder to handle exception
 
 
 

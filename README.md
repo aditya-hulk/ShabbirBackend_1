@@ -360,4 +360,37 @@ public class EmployeeServiceImpl implements EmployeeService{
 ![alt text](image-286.png)
 ### Restarting Order and Product Services
 ![alt text](image-287.png)
+# 52. Implementing Reduce quantity API in Product Service.
+![alt text](image-288.png)![alt text](image-289.png)
+## Service layer
+![alt text](image-290.png)![alt text](image-291.png)
+## Testing
+### Always restart the server while testing
+![alt text](image-292.png)![alt text](image-293.png)![alt text](image-294.png)![alt text](image-295.png)
+# 54. Feign Client Intro & 55. Calling reduce quantity API from place order service via Feign Client. 
+![alt text](image-296.png)![alt text](image-297.png)![alt text](image-298.png)
+## Target:
+![alt text](image-299.png)
+### Step-1: Add dependency of Feign client
+![alt text](image-300.png)
+### Go to Order-Service pom.xml add this depenedency
+![alt text](image-301.png)
+### Go to Order-Service Application and Enable Feign-Client
+![alt text](image-302.png)
+## Create an external pkg and here we create our Feign Client.
+- In external pkg create another pkg as Client, since we have to create client
+### Create an ProductService as Interface.
+![alt text](image-303.png)
+## Kaha kaha se kya kya liya
+### 1)PRODUCT-SERVICE ye name Product ke application.yaml file se uthaya. AAp eureka server se bhi fetch kar sakte ho.
+![alt text](image-304.png)![alt text](image-305.png)
+### 2)/product ye  ProductController se uthaya
+![alt text](image-306.png)
+### 3)	Method declaration ye bhi Product Controller se uthaya
+![alt text](image-307.png)
+## Ab hume is feign client ko call karna hai .. apne order microserve se
+![alt text](image-308.png)
+## Test: Place an order
+![alt text](image-309.png)![alt text](image-310.png)
+# 56. Implementing error Decoder to handle exception
 
